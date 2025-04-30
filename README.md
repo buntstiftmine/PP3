@@ -113,19 +113,20 @@ For more detailed information on SVG structure and elements, you can refer to th
 
 <details>
     <summary>Your SVG Code</summary>
-    <code>
-   <?xml version="1.0" encoding="UTF-8"?>
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg"
      version="1.1"
      width="800mm" height="600mm"
      viewBox="-400 -300 800 600">
-  <title>example</title>
+  <title>Example</title>
   <desc>This example creates an SVG canvas with a rectagle, a circle and a sraight line.</desc>
-<rect width="50" height="100" fill="blue"/>
-<path d="M100 100 L100 0" stroke="red"/>
-<circle cx="75" cy="65" r="20" fill="black"/>
+  <rect width="50" height="100" fill="blue" />
+  <path d="M100 100 L100 0" stroke="red" />
+  <circle cx="75" cy="65" r="20" fill="black" />
 </svg>
-    </code>
+```
 </details>
 
 ### Task 2: Markdown
